@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px 20px 50px;
+    font-size: 18px;
+    height: 10vh;
+    position: fixed;
+    top:0 ;
+    right: 0;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    color: #E51B3E;
+}
+
+.itens{
+    color: #626262;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texto{
+    gap: 10px;
+}
+
+.seçao1{
+    background-image: url(/img/background.jpg);
+    width: 100%;
+    height: 90vh;
+}
+
+h1{
+    color: #E51B3E;
+    font-size: 72px;
+}
+ 
+.fundo p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+button{
+    width: 322px;
+    height: 71px;
+    border: 1px solid #33BB69;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
